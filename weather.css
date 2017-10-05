@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+body{
+  font-family: "Lato";
+  color: #ddd!important;
+  background: url("") no-repeat center center fixed;
+  background-size: cover;
+  animation: 5s ease infinite backColor;
+}
+
+@keyframes backColor{
+  0%{background-color: #222}
+  50%{background-color: #111}
+  100%{background-color: #222}
+}
+
+h1{font-size: 2em!important}
+
+.jumbotron, .well {
+  background-color: rgba(0, 0, 20, 0.5)!important;
+}
+
+.well {
+  margin-bottom: 2.5em;
+  border: none!important;
+  border-radius: 0;
+ }
+
+#temp {
+  font-size: 5em!important;
+}
+
+.btn {
+  margin-top: 1em;
+  border-radius: 0;
+}
+
+@media(max-width: 480px) and (min-width: 1px){
+  body{font-size: small!important}
+}
